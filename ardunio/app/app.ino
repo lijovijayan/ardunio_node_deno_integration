@@ -17,7 +17,7 @@ void loop() {
    duration = pulseIn(echoPin, HIGH);
    cm = microsecondsToCentimeters(duration);
    Serial.println(cm);
-   delay(100);
+   delay(50);
 }
 
 long microsecondsToInches(long microseconds) {
