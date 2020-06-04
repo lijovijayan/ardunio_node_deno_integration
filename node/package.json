@@ -4,6 +4,7 @@
   "description": "",
   "main": "app.js",
   "dependencies": {
+    "axios": "^0.19.2",
     "express": "^4.17.1",
     "serialport": "^9.0.0"
   },
